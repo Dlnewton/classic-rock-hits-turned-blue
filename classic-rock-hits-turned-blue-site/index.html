@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Classic Rock Hits Turned Blue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0b0b;
+    color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 15px 10px;
+    background: #000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #9aa0ff;
+}
+
+/* FLEX CONTAINER */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+/* HERO IMAGE */
+.hero {
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* SPOTIFY PLAYER */
+.spotify-player {
+    flex: 2 1 400px;
+    max-width: 650px;
+}
+
+.spotify-player iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: 12px;
+}
+
+/* SOCIAL IMAGES */
+.social-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+}
+
+.social-images img {
+    width: 300px;
+    max-width: 90%;
+    border-radius: 10px;
+    transition: transform 0.25s ease;
+}
+
+.social-images img:hover {
+    transform: scale(1.05);
+}
+
+/* QR CODE */
+.qr-section {
+    margin: 35px 0;
+    text-align: center;
+}
+
+.qr-section img {
+    width: 200px;
+}
+
+/* LINKS */
+.links {
+    max-width: 850px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.links h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.links a {
+    display: block;
+    padding: 10px;
+    color: #9aa0ff;
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+.links a:hover {
+    background: #111;
+}
+
+footer {
+    margin: 30px 0 15px;
+    font-size: 0.85rem;
+    color: #777;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Classic Rock Hits Turned Blue</h1>
+    <h2>Album: Classic Rock Hits Turned Blue</h2>
+</header>
+
+<!-- HERO LEFT / SPOTIFY RIGHT -->
+<div class="main-content">
+    <div class="hero">
+        <img src="band-hero.jpg" alt="Classic Rock Hits Turned Blue">
+    </div>
+    <div class="spotify-player">
+        <iframe 
+            src="https://open.spotify.com/embed/album/0P2OXJKjaOQMgeDCTVLp4g"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+
+<!-- SOCIAL IMAGES -->
+<div class="social-images">
+    <a href="https://www.facebook.com/profile.php?id=61586798783853" target="_blank">
+        <img src="facebook.jpg" alt="Facebook">
+    </a>
+    <a href="https://music.youtube.com/playlist?list=OLAK5uy_lFWvTjVK1HHMy9CpckNJfy9j6v7fDXJgM" target="_blank">
+        <img src="youtube.jpg" alt="YouTube Music">
+    </a>
+</div>
+
+<!-- QR CODE -->
+<div class="qr-section">
+    <h3>Scan for Spotify</h3>
+    <img src="classic-rock-hits-turned-blue-spotify-green-center-qr.png" alt="Spotify QR Code">
+</div>
+
+<!-- STREAMING LINKS -->
+<div class="links">
+    <h3>Listen on All Platforms</h3>
+    <a href="https://open.spotify.com/album/0P2OXJKjaOQMgeDCTVLp4g" target="_blank">Spotify</a>
+    <a href="https://music.apple.com/us/album/classic-rock-hits-turned-blue/1830750109" target="_blank">Apple Music</a>
+    <a href="https://music.apple.com/us/album/classic-rock-hits-turned-blue/1830750109" target="_blank">iTunes</a>
+    <a href="https://www.facebook.com/profile.php?id=61586798783853" target="_blank">Facebook</a>
+    <a href="https://music.youtube.com/playlist?list=OLAK5uy_lFWvTjVK1HHMy9CpckNJfy9j6v7fDXJgM" target="_blank">YouTube Music</a>
+    <a href="https://www.amazon.com/Classic-Rock-Hits-Turned-Blue/dp/B0FKXZ739S" target="_blank">Amazon Music</a>
+    <a href="https://pandora.app.link/" target="_blank">Pandora</a>
+    <a href="https://www.deezer.com/us/album/798140401" target="_blank">Deezer</a>
+    <a href="https://www.iheart.com/artist/classic-rock-hits-turned-blue-47615532/" target="_blank">iHeartRadio</a>
+    <a href="https://play.anghami.com/song/1224181077" target="_blank">Anghami</a>
+</div>
+
+<footer>
+    © Classic Rock Hits Turned Blue
+</footer>
+
+</body>
+</html>
